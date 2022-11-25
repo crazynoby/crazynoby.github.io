@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="云盘TV,云盘TV下载,阿里云盘,TV,电视播放器,TV播放器">
+    <meta name="keywords" content="小白云盘TV,云盘TV,云盘TV下载,阿里云盘,TV,电视播放器,TV播放器">
     <meta name="description" content="小白云盘TV,小白云盘TV下载,小白云盘TV下载官网,小白云盘TV首页,阿里云盘TV,阿里云盘电视播放器,阿里云盘TV播放器"/>
     <meta name="author" content="小白" />
     <link rel="shortcut icon" href="./assets/img/favicon.ico" />
@@ -63,14 +63,17 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 centered">
-            <!-- <img src="assets/img/logo.png" alt="Stanley"> -->
+            <!-- <img src="assets/img/logo.png" style="width: 30px;height:30px;" alt="Stanley">  -->
             <h1>小白云盘TV</h1>
-            <p> 
-            </p>
             <p>
               <strong>安卓TV端云盘播放利器 &nbsp;(支持阿里云盘)</strong>
             </p>
-            <p> <h3><a href="download.html">去下载</a></h3></p>
+            <p> 
+              <button id="download" class="ant-btn ant-btn-primary">去下载</button>
+             &nbsp;
+             <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=-PB_txsYmgeLEDRe4P0lxS4hrCeewW7k&jump_from=webapi&authKey=KeeLhYZG+A2rr9HUO/zLaer4pxakM/VgKCvCU9Nyjqqg5W0WP45I8fz+6nrKh5ck">
+              <img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="小白云盘TV" title="小白云盘TV"></a> </p>
+           <br>
           </div>
           <!-- /col-lg-8 -->
         </div>
@@ -82,7 +85,7 @@
 
     <!-- +++++ Projects Section +++++ -->
 
-    <div class="container pt">
+    <div class="container">
       <div class="row mt centered">
         <div class="col-lg-6">
           <img class="img-responsive" src="assets/img/help/4.jpg" alt="" />
@@ -149,6 +152,12 @@
       </div>
     </div>
 	
+    <script>
+      
+    $('#download').click(function(){
+        window.location.href="download.html"
+    })
+    </script>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

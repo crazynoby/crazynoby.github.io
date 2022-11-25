@@ -3,115 +3,120 @@
 
 
 body {
-  	background-color: #ffffff;
-  	font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    color: #555;
+  background-color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #555;
 
-    -webkit-font-smoothing: antialiased;
-    -webkit-overflow-scrolling: touch;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
 }
 
 /* Titles */
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    color: #333;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #333;
 }
 
 h1 {
-	font-size: 35px;
-	margin-top: 30px;
-	margin-bottom: 30px;
+  font-size: 35px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 
 
 /* Paragraph & Typographic */
 p {
-    line-height: 28px;
-    margin-bottom: 25px;
-    font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 25px;
+  font-size: 16px;
 }
 
 .centered {
-    text-align: center;
+  text-align: center;
 }
 
 /* Links */
 a {
-    color: #42ADE6;
-    word-wrap: break-word;
+  color: #42ADE6;
+  word-wrap: break-word;
 
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
 a:hover,
 a:focus {
-    color: #7b7b7b;
-    text-decoration: none;
-    outline: 0;
+  color: #7b7b7b;
+  text-decoration: none;
+  outline: 0;
 }
 
 a:before,
 a:after {
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
- hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
 
 .navbar {
-	text-transform: uppercase;
-	margin-bottom: 0px;
+  text-transform: uppercase;
+  margin-bottom: 0px;
 }
 
 .navbar-inverse {
-	padding-bottom: 20px;
-	padding-top: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .navbar-inverse {
-	background-color: #42ADE6;
-	border-color: #16a085;
+  background-color: #42ADE6;
+  border-color: #16a085;
 }
 
-.navbar-inverse .navbar-nav > li > a {
-	color: white;
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
 }
 
-.navbar-inverse .navbar-nav > li > a:hover {
-	color: #222222;
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: #222222;
 }
 
 .navbar-brand {
-	font-weight: 700;
-	font-size: 20px;
-	letter-spacing: 2px;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 2px;
 }
 
 .navbar-inverse .navbar-brand {
-	color: white;
+  color: white;
 }
 
 .navbar-inverse .navbar-toggle {
-	border-color: transparent;
+  border-color: transparent;
 }
 
 .progress-bar-theme {
@@ -122,120 +127,169 @@ a:after {
 /* Helpers */
 
 .mt {
-	margin-top: 40px;
-	margin-bottom: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .pt {
-	padding-top: 50px;
-	padding-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 
 /* +++++ WRAP SECTIONS +++++ */
 
 #ww {
-	padding-top: 10px;
-	padding-bottom: 20px;
-	background-color: #f2f2f2;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #f2f2f2;
 }
 
 
 #footer {
-	background-color: #42ADE6;
-	padding-top: 50px;
-	padding-bottom: 10px; 
+  background-color: #42ADE6;
+  padding-top: 50px;
+  padding-bottom: 10px;
 }
 
 #footer p {
-	color: white;
+  color: white;
 }
 
 #footer h4 {
-	color: white;
-	text-transform: uppercase;
-	padding-bottom: 20px;
+  color: white;
+  text-transform: uppercase;
+  padding-bottom: 20px;
 }
 
 
 /* +++++ Color Wraps / Blog Page +++++ */
 
 #grey {
-	padding-top: 60px;
-	padding-bottom: 60px;
-	background-color: #f2f2f2;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #f2f2f2;
 }
 
 #white {
-	padding-top: 60px;
-	padding-bottom: 60px;
-	background-color: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
 }
 
 
 
 /* Blog Date*/
 bd {
-	font-size: 12px;
-	text-transform: uppercase;
-	color: #d2d2d2;
-	font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #d2d2d2;
+  font-weight: 700;
 }
 
 /* Blog Author*/
 ba {
-	font-size: 12px;
-	text-transform: uppercase;
+  font-size: 12px;
+  text-transform: uppercase;
 }
 
 /* Blog Quote */
 .bq {
-	font-size: 22px;
-	padding-top: 30px;
+  font-size: 22px;
+  padding-top: 30px;
 }
 
 /* Blog Tags */
 bt {
-	font-size: 12px;
+  font-size: 12px;
 }
 
 /* ================== PORTFOLIO IMAGES HOVER EFFECT ================== */
 /* Effects also are controled by hover.zoom.js */
-.zoom { 
-    display:block; 
-    position:relative; 
-    overflow:hidden; 
-    background:transparent url(../img/loader.gif) no-repeat center;
+.zoom {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  background: transparent url(../img/loader.gif) no-repeat center;
 }
 
 
-    .zoomOverlay {
-        position:absolute;
-        top:0; left:0;
-        bottom:0; right:0;
-        display:none;
-        background-image:url(../img/zoom.png);
-        background-repeat:no-repeat;
-        background-position:center;
-    }
+.zoomOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: none;
+  background-image: url(../img/zoom.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 .zoom2 {
-	opacity: 1;
+  opacity: 1;
 }
 
 .zoom2:hover {
-	opacity: 0.5;
+  opacity: 0.5;
 }
 
 /* glyphicon Configuration */
 
 .glyphicon {
-	font-size: 40px;
-	color: #42ADE6;
+  font-size: 40px;
+  color: #42ADE6;
 }
 
 .logo {
   width: 20px;
   height: 20px;
   margin-right: 10px;
+}
+
+
+.ant-btn {
+  line-height: 1.499;
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  background-image: none;
+  border: 1px solid transparent;
+  -webkit-box-shadow: 0 2px 0 rgba(0,0,0,0.015);
+  box-shadow: 0 2px 0 rgba(0,0,0,0.015);
+  cursor: pointer;
+  -webkit-transition: all .3s cubic-bezier(.645, .045, .355, 1);
+  transition: all .3s cubic-bezier(.645, .045, .355, 1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  height: 32px;
+  padding: 0 15px;
+  font-size: 14px;
+  border-radius: 4px;
+  color: rgba(0,0,0,0.65);
+  background-color: #fff;
+  border-color: #d9d9d9;
+}
+
+.ant-btn-primary {
+  color: #fff;
+  background-color: #1890ff;
+  border-color: #1890ff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.12);
+  -webkit-box-shadow: 0 2px 0 rgba(0,0,0,0.045);
+  box-shadow: 0 2px 0 rgba(0,0,0,0.045);
+}
+.ant-btn-red {
+  color: #fff;
+  background-color: #FF5A44;
+  border-color: #FF5A44;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.12);
+  -webkit-box-shadow: 0 2px 0 rgba(0,0,0,0.045);
+  box-shadow: 0 2px 0 rgba(0,0,0,0.045);
 }

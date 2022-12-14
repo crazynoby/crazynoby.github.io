@@ -20,11 +20,26 @@
 
   <script src="assets/js/jquery-1.10.2.min.js"></script>
   <script src="assets/js/bdstat.js"></script>
+
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
+  <style>
+    .morecon {
+      cursor: pointer;
+      font-size: 16px;
+      float: left;
+      margin: 5px 10px 0 0;
+      color: #0096FF;
+    }
+
+    .checkmore .text {
+      width: 600px;
+      overflow: hidden;
+    }
+  </style>
 </head>
 
 <body>
@@ -58,7 +73,7 @@
           <p>
           <h4> <img src="assets/img/logo.png" width="30px" height="30px" />&nbsp;&nbsp;小白云盘TV</h4>
           </p>
-                    
+
           <p>
             <strong>版本：v1.3.2beta</strong>
             <br />发布日期：2022-12-11
@@ -70,87 +85,93 @@
             <br />5.播放界面中，倍速改为播放，新增单循环、列表循环选项;
             <br />6.设置界面：调用第三方播放器新增调用策略选项：不调用、解码失败调用和直接调用。
             <br />7.界面调整及优化、读取速度优化。
-            <br /><strong style="color: red;">下载地址: </strong>&nbsp<a href="https://wwcb.lanzouw.com/i52vG0ifacgh">蓝奏云</a>&nbsp;&nbsp;密码:i2km
+            <br /><strong style="color: red;">下载地址: </strong>&nbsp<a
+              href="https://wwcb.lanzouw.com/i52vG0ifacgh">蓝奏云</a>&nbsp;&nbsp;密码:i2km
             <br>
           </p>
 
+          <div class="checkmore">
+            <div class="text">
+              <p>
+                <strong>版本：v1.3.1</strong>
+                <br />发布日期：2022-12-03
+                <br /><strong>更新日志：</strong>
+                <br />1.修复播放界面字幕页打开崩溃问题;
+                <br />2.新增调用系统播放器;
+                <br />3.播放新增整点报时。
+                <br>
+              </p>
 
-          <p>
-            <strong>版本：v1.3.1</strong>
-            <br />发布日期：2022-12-03
-            <br /><strong>更新日志：</strong>
-            <br />1.修复播放界面字幕页打开崩溃问题;
-            <br />2.新增调用系统播放器;
-            <br />3.播放新增整点报时。
-            <br>
-          </p>
+              <p>
+                <strong>版本：v1.3</strong>
+                <br />发布日期：2022-12-01
+                <br /><strong>更新日志：</strong>
+                <br />1.修复向下翻页数据读取不完整的情况；
+                <br />2.修复一些视频不能读取字幕的问题；
+                <br />3.修复自动下集不按顺序播放的问题；
+                <br />4.修复部分电视上不能暂停播放、闪屏和不能跳到下一集的问题；
+                <br />5.字幕：
+                <br>(1)新增调整字幕大小、位置和亮度。srt字幕能正常调整，其它类型字幕不完全支持，可能会出现设置不生效的情况。打开位置：播放界面的菜单-字幕-字幕设置；
+                <br>(2)添加字幕搜索框，能自行根据关键字搜索字幕了。
 
-          <p>
-            <strong>版本：v1.3</strong>
-            <br />发布日期：2022-12-01
-            <br /><strong>更新日志：</strong>
-            <br />1.修复向下翻页数据读取不完整的情况；
-            <br />2.修复一些视频不能读取字幕的问题；
-            <br />3.修复自动下集不按顺序播放的问题；
-            <br />4.修复部分电视上不能暂停播放、闪屏和不能跳到下一集的问题；
-            <br />5.字幕：
-            <br>(1)新增调整字幕大小、位置和亮度。srt字幕能正常调整，其它类型字幕不完全支持，可能会出现设置不生效的情况。打开位置：播放界面的菜单-字幕-字幕设置；
-            <br>(2)添加字幕搜索框，能自行根据关键字搜索字幕了。
+                <br />6.新增解码失败自动调用第三方播放器的设置选项,新增NPlayer的调用;
+                <br />7.支持LivePhoto显示；
+                <br />8.界面细节多处优化调整。
+                <br />(1)播放界面左下角添加菜单按钮，移动端也能呼出菜单了；
+                <br />(2)调整字幕设置界面：按左、右方向能跳回下方焦点了（解决字幕太多很难回到下方的问题）。
+                <br />9.主界面新增点赞按钮，觉得小白还行的话，给小白来波赞吧！
+                <br /><strong>感谢“龙寻”为小白重新设计的图标和启动界面。</strong>
+                <br /><strong>感谢“Wayne”参与小白的测试。</strong>
 
-            <br />6.新增解码失败自动调用第三方播放器的设置选项,新增NPlayer的调用;
-            <br />7.支持LivePhoto显示；
-            <br />8.界面细节多处优化调整。
-            <br />(1)播放界面左下角添加菜单按钮，移动端也能呼出菜单了；
-            <br />(2)调整字幕设置界面：按左、右方向能跳回下方焦点了（解决字幕太多很难回到下方的问题）。
-            <br />9.主界面新增点赞按钮，觉得小白还行的话，给小白来波赞吧！
-            <br /><strong>感谢“龙寻”为小白重新设计的图标和启动界面。</strong>
-            <br /><strong>感谢“Wayne”参与小白的测试。</strong>
+              </p>
 
-          </p>
+              <p>
+                <strong>版本：v1.2beta</strong>
+                <br />发布日期：2022-11-24
+                <br /><strong>更新日志：</strong>
+                <br />1.添加轨道选择：包括视频、音轨、字幕；
+                <br />2.修复文件项显示不完整的问题；
+                <br />3.修复字幕有时不能加载的情况；
+                <br />4.修复16:9的宽视频有被挤压的现象；
+                <br />5.优化文件列表显示，升级显示速度，显示读取的文件项；
+                <br />6.提升升级速度和稳定性；
+                <br /> PS:已经安装过旧版本的可以在设置菜单里边更新最新版本。
+              </p>
 
-          <p>
-            <strong>版本：v1.2beta</strong>
-            <br />发布日期：2022-11-24
-            <br /><strong>更新日志：</strong>
-            <br />1.添加轨道选择：包括视频、音轨、字幕；
-            <br />2.修复文件项显示不完整的问题；
-            <br />3.修复字幕有时不能加载的情况；
-            <br />4.修复16:9的宽视频有被挤压的现象；
-            <br />5.优化文件列表显示，升级显示速度，显示读取的文件项；
-            <br />6.提升升级速度和稳定性；
-            <br /> PS:已经安装过旧版本的可以在设置菜单里边更新最新版本。
-          </p>
+              <p>
+                <strong>版本：v1.1beta</strong>
+                <br />发布日期：2022-11-21
+                <br /><strong>更新日志：</strong>
+                <br />1.修复原画播放，增加画质选择配置；
+                <br />2.修复字幕选择问题，增加自动加载字幕配置；
+                <br />3.在播放界面新增了显示选项，可调整画面比例；
+                <br />4.修复了在部分机器上引起崩溃的兼容问题；
+                <br />5.加强了低版本系统上的解码能力。
+                <br />PS:已经安装过旧版本的可以在设置菜单里边更新最新版本。
+              </p>
 
-          <p>
-            <strong>版本：v1.1beta</strong>
-            <br />发布日期：2022-11-21
-            <br /><strong>更新日志：</strong>
-            <br />1.修复原画播放，增加画质选择配置；
-            <br />2.修复字幕选择问题，增加自动加载字幕配置；
-            <br />3.在播放界面新增了显示选项，可调整画面比例；
-            <br />4.修复了在部分机器上引起崩溃的兼容问题；
-            <br />5.加强了低版本系统上的解码能力。
-            <br />PS:已经安装过旧版本的可以在设置菜单里边更新最新版本。
-          </p>
-
-          <p>
-            <br /><strong>版本：v1.0beta</strong>
-            <br /> 发布日期：2022-11-20
-            <br />发布日志：实现一些基本功能：清晰度选择，外挂字幕，图片自动播放，文件管理排序，历史记录，调用第三方Kodi、MxPlayer播放，追剧跳过片头片尾。
-          </p>
-
-          <strong>BUG建议及最新版本请进</strong>
-          <br>QQ 3群： <strong>456229514</strong> &nbsp;  <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=pMs3psWqFcWaOxh92FETjDUiO8L1YU0m&jump_from=webapi&authKey=YzI1PRnVDeidao3o1yyq1MeYtw5GKUq2G4FSK1l4FOZIVnm0lRto+4gacNBZeFhM"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="小白云盘TV 3群" title="小白云盘TV 3群"></a>
-          <br><img style="height: 200px;width:200px" src="assets/img/help/qq_qrcode.jpg"/>
+              <p>
+                <br /><strong>版本：v1.0beta</strong>
+                <br /> 发布日期：2022-11-20
+                <br />发布日志：实现一些基本功能：清晰度选择，外挂字幕，图片自动播放，文件管理排序，历史记录，调用第三方Kodi、MxPlayer播放，追剧跳过片头片尾。
+              </p>
+            </div>
+          </div>
+          <br>
+          <br><strong>BUG建议及最新版本请进</strong>
+          <br>QQ 3群： <strong>456229514</strong> &nbsp; <a target="_blank"
+            href="https://qm.qq.com/cgi-bin/qm/qr?k=pMs3psWqFcWaOxh92FETjDUiO8L1YU0m&jump_from=webapi&authKey=YzI1PRnVDeidao3o1yyq1MeYtw5GKUq2G4FSK1l4FOZIVnm0lRto+4gacNBZeFhM"><img
+              border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="小白云盘TV 3群" title="小白云盘TV 3群"></a>
+          <br><img style="height: 200px;width:200px" src="assets/img/help/qq_qrcode.jpg" />
           <br>QQ 2群： 567236116 <strong style="color: red;">(已满)</strong>
           <br>QQ 1群： 719548664 <strong style="color: red;">(已满)</strong>
-
         </div>
       </div>
-
-      <!-- /row -->
     </div>
-    <!-- /container -->
+
+    <!-- /row -->
+  </div>
+  <!-- /container -->
   </div>
   <!-- /grey -->
   <!-- +++++ Footer Section +++++ -->
@@ -165,6 +186,21 @@
     ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
   <script src="assets/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $(".checkmore .text").each(function () {
+        height = $(this).height();
+        if (height > 0) {
+          $(this).css("height", "0");
+          $(this).after("<a class=\"morecon\" >查看更多</a>");
+        }
+      });
+      $(".morecon").click(function () {
+        $(this).parent().children(".text").css("height", "auto");
+        $(this).css("display", "none");
+      });
+    });
+  </script>
 </body>
 
 </html>
